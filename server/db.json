@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Omkar",
+    "email": "omkar@1234",
+    "password": "123456",
+    "balance": 50000
+  },
+  {
+    "id": 2,
+    "name": "Abaya",
+    "email": "abaya@3456",
+    "password": "$2a$10$7R.fK/fM7K8VjJ1e8WqX.O.gQvM0rA5z9.9.9.9.9.9.9.9.9.9",
+    "balance": 60000
+  },
+  {
+    "id": 3,
+    "name": "demo",
+    "email": "demo123@gmail.com",
+    "password": "$2b$10$8mAOz24yLFPGkd6vLKygbeUBF4CLX.dSsDX/lDvzJbH8H05kW6T32",
+    "balance": 2000
+  },
+  {
+    "id": 4,
+    "name": "nagaratna",
+    "email": "nagaratnanaik955@gmail.com",
+    "password": "$2b$10$SFPhIzIOI62saoBVr6FJDOwttaEUdnRnr0NV/AifjdpD6jH0vDKo.",
+    "balance": 2000
+  },
+  {
+    "id": 5,
+    "name": "Auto",
+    "email": "auto@test.com",
+    "password": "password123",
+    "balance": 2000
+  },
+  {
+    "id": 6,
+    "name": "demo",
+    "email": "omkar955@gmail.com",
+    "password": "$2b$10$F4JCxSxEjHJ1cqcdzoZfg.FUDnJeZKJ4S.9ecQ.qlHjsgHgXSTw4G",
+    "balance": 2000
+  },
+  {
+    "id": 7,
+    "name": "omkar1",
+    "email": "omkar951@gmail.com",
+    "password": "$2b$10$uMbaxr2cK0CiywwXOQQrluIilEJDDtmZiE.cFyRhA22V0MoNeD65W",
+    "balance": 2000
+  },
+  {
+    "id": 8,
+    "name": "anu",
+    "email": "anu1@gmail.com",
+    "password": "$2b$10$gabOgTZiZH7C0mc0V2Et/uMBpBCEO2HhAzkrMKdJEQlR6yNZkix6C",
+    "balance": 2000
+  }
+]
