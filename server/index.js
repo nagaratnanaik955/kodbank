@@ -138,3 +138,5 @@ app.post('/api/transfer', authenticateToken, (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
+module.exports = app;

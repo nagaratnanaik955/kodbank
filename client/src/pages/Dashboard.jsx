@@ -14,7 +14,7 @@ const Dashboard = ({ user }) => {
     const fetchBalance = async () => {
         setLoadingBalance(true);
         try {
-            const res = await axios.get('http://localhost:5000/api/balance');
+            const res = await axios.get('/api/balance');
             setBalance(res.data.balance);
         } catch (err) {
             console.error('Error fetching balance', err);
@@ -30,7 +30,7 @@ const Dashboard = ({ user }) => {
         setLoadingTransfer(true);
 
         try {
-            const res = await axios.post('http://localhost:5000/api/transfer', {
+            const res = await axios.post('/api/transfer', {
                 receiverEmail,
                 amount
             });

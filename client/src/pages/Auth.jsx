@@ -21,11 +21,11 @@ const Auth = ({ onLogin, initialMode = 'login' }) => {
 
         try {
             if (isLogin) {
-                const res = await axios.post('http://localhost:5000/api/login', { email, password });
+                const res = await axios.post('/api/login', { email, password });
                 onLogin(res.data.user, res.data.token);
                 navigate('/');
             } else {
-                await axios.post('http://localhost:5000/api/register', { name, email, password });
+                await axios.post('/api/register', { name, email, password });
                 setSuccess('Registration successful! You can now log in.');
                 setIsLogin(true);
                 setName('');
