@@ -26,9 +26,10 @@ const Chatbot = () => {
         const q = query.toLowerCase();
         if (q.includes('balance')) return 'To check your balance, click the "Check Balance" button on your main dashboard. Your minimum required balance is ₹2,000.';
         if (q.includes('transfer') || q.includes('send money')) return 'You can send money using the "Money Transfer" form. Just enter the receiver’s email and the amount, then click "Transfer Now".';
-        if (q.includes('hello') || q.includes('hi')) return 'Hello! I am your KodBank automated assistant. I can help you with balance checks, money transfers, and account settings.';
+        if (q.includes('hello') || q.includes('hi')) return 'Hello! I am your KodBank automated assistant. I can help you with balance checks, money transfers, and account settings while the AI service is offline.';
         if (q.includes('help')) return 'I can help you navigate the app! Try asking about "balance" or "how to transfer money".';
-        return "I'm currently in Offline Mode while the AI service is being updated. I can help with basic questions about balance and transfers!";
+        if (q.includes('login') || q.includes('credentials')) return 'If you are having trouble logging in, please ensure your email and password are correct. Contact support if the issue persists.';
+        return "I'm currently in Automated Mode while the AI service is being updated. I can help with basic questions about KodBank functions like balance and transfers!";
     };
 
     const handleSend = async (e) => {
